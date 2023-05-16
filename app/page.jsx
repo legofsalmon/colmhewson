@@ -1,3 +1,8 @@
+import Link from 'next/link';
+
 export default function Page() {
-    return <div className="grey"></div>;
-  }
+  return (
+      <h1>Colm Hewson</h1>
+      
+  );
+}

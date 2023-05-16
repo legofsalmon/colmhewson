@@ -1,0 +1,15 @@
+@import '../typography/typography';
+
+:root {
+    --font-stack: #{$system-ui-font-stack};
+}
+
+body {
+    display: grid;
+    place-items: center;
+    place-content: center;
+    height: 100vh;
+    height: 100dvh;
+    margin: 0;
+    font-family: var(--font-stack);
+}

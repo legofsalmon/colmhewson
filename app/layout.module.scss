@@ -1,0 +1,5 @@
+@use "./styles/typography/typography";
+
+.root {
+    font-family: var(--system-ui-font-stack);
+}
