@@ -4,6 +4,11 @@
     --font-stack: #{$system-ui-font-stack};
 }
 
+*::selection {
+    background-color: black;
+    color: white;
+    mix-blend-mode: color-burn;
+}
 body {
     display: grid;
     place-items: center;

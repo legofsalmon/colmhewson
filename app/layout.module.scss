@@ -9,10 +9,10 @@
         grid-area: 1 / 1 / 1 / 1;
     }
     & h1 {
-        font-size: 180px;
+        font-size: calc(10vw + 16px);
         z-index: 2;
         font-weight: 700;
-        color:blue;
+        color: blue;
         mix-blend-mode: multiply;
     }
     & .colour-wash {
