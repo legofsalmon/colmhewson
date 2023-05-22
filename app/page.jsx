@@ -6,6 +6,7 @@ export default function Page() {
   return (
     <>
       <h1>Colm Hewson</h1>
+      <h2>Person who does many things</h2>
       <Image
         src="/images/stock/test-stock-image.jpeg"
         width={500}
